@@ -15,11 +15,11 @@ ${pickRandom(global.quotes)}
          hydratedTemplate: {
            hydratedContentText: anu,
            locationMessage: { 
-           jpegThumbnail: fs.readFileSync('./media/quotes.jpg') }, 
+           jpegThumbnail: 'https://telegra.ph/file/f6a187fd7cb09313247c2.png' }, 
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
-               displayText: '📍instagram',
+               displayText: 'Follow On instagram',
                url: instagram
              }
 
@@ -44,16 +44,6 @@ ${pickRandom(global.quotes)}
 handler.help = ['quotes','katabijak']
 handler.tags = ['quotes']
 handler.command = /^(quotes|katabijak)$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
-
-handler.fail = null
 
 module.exports = handler
 
