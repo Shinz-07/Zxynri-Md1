@@ -1,27 +1,25 @@
 /**
-* jangan ganti ya kakak kakak sekalian
-* ini cuma buat ninggalin credit gw doang :)
 * jangan dihilangin, boleh di tambahin 🐦
 **/
 
 let handler = async (m, { conn }) => {
 bear = "Source Code"
 let esce = `
-BIG THANKS TO
-
-⤿ Nurutomo
+*Big Thanks To*
+☆ Nurutomo
     📮 https://github.com/Nurutomo
-⤿ Elyas
+⬣ Elyas
     📮 https://github.com/Paquito1923
-⤿ Hyzer Official
+ꕥ Hyzer Official
     📮 https://github.com/Hyzerr
-⤿ Krizyn Ofc
+✾ Krizyn Ofc
     📮 https://github.com/krizynofc
-⤿ Zifabotz_offc1
+⬡ Zifabotz_offc1
     📮 https://github.com/Botynyakamu
-⤿ Rielgans Ofc
-    📮 https://github.com/Rieltod
-THANKS PARA DONASI YANG TERHORMAT 🗿
+^ Az
+    📮 https://github.com/AzRyCB    
+    
+THANKS PARA DONASI YANG TERHORMAT
 `
 conn.sendButtonImg(m.chat, fla + 'Thanks To', esce, wm2, 'Menu', '.menu', m) 
 }
