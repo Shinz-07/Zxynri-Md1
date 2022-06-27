@@ -13,12 +13,12 @@ Dzuhur: _${res.dzuhur}_
 Ashar: ${res.ashar}
 Maghrib: ${res.maghrib}
 Isya: ${res.isya}
-`, wm, 'ok', 'huuu',m)
+`, wm, 'ok', 'makasih',m)
 
 }
 handler.help = ['jadwalsholat <daerah>']
 handler.tags = ['internet']
-handler.command = /^jadwalsholat$/i
+handler.command = /^(jadwalsholat|jadwalshalat)$/i
 
 
 module.exports = handler
