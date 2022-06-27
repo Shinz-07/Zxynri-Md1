@@ -11,9 +11,9 @@ ${json.artikel}\n\n
 ${json.url}
 `.trim(),m)
 }
-handler.help = ['kompas', 'liputan6', 'tribun', 'jalantikus']
+handler.help = ['kompas', 'tribun', 'jalantikus']
 handler.tags = ['internet']
-handler.command = /^kompas|liputan6|tribun|jalantikus$/i
+handler.command = /^kompas|tribun|jalantikus$/i
 
 
 module.exports = handler
